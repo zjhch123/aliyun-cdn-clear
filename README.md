@@ -7,7 +7,7 @@
 ```shell
 npm install aliyun-cdn-refresh-cli -g
 
-aliyun-cdn-refresh-cli --ObjectPath * --ObjectType * --AccessKeyId * --AccessKeySecret *
+aliyun-cdn-refresh --ObjectPath * --ObjectType * --AccessKeyId * --AccessKeySecret *
 ```
 
 ### From code
