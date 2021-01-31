@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+const yargs = require('yargs');
+const operate = require('../index.js');
+
+const argv = yargs
+  .alias('p', 'ObjectPath')
+  .alias('t', 'ObjectType')
+  .alias('i', 'AccessKeyId')
+  .alias('s', 'AccessKeySecret')
+  .argv;
+
+operate(argv).then(console.log);

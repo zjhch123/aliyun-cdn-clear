@@ -1,0 +1,18 @@
+{
+  "name": "aliyun-cdn-refresh",
+  "version": "1.0.0",
+  "description": "Aliyun CDN refresh API",
+  "bin": {
+    "aliyun-cdn-refresh": "./bin/index"
+  },
+  "main": "index.js",
+  "keywords": ["aliyun", "cdn", "utils"],
+  "author": "zjhch123<416836508@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "node-fetch": "^2.6.1",
+    "underscore": "^1.12.0",
+    "yargs": "^16.2.0"
+  }
+}
