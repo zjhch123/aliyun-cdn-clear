@@ -1,5 +1,5 @@
 {
-  "name": "aliyun-cdn-refresh",
+  "name": "aliyun-cdn-refresh-cli",
   "version": "1.0.0",
   "description": "Aliyun CDN refresh API",
   "bin": {
